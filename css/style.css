@@ -1,0 +1,47 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    
+}
+body {
+    padding: 0;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      list-style: none;
+      padding: 24px 156px ;
+      margin: 0;
+    }
+    .gallery-item {
+      flex-basis: calc(33.333% - 24px);
+      transition: ease-in-out 250ms;
+      
+      
+    }
+.gallery-item img {
+    border-radius: 5px;
+}
+
+    .gallery-item:hover,
+    .gallery-item:focus {
+        scale: 1.08;
+        transition: all ease-in-out 250ms;
+        
+    }
+    .gallery-link {
+      display: block;
+      
+    }
+    .gallery-image {
+      width: 100%;
+      height: auto;
+      display: block;
+
+    }
